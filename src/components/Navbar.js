@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={Logo} alt='logo' style={{width:"50px",height:"50px" , margin:"0 20px"}} />
       </Link>
       <Stack direction="row" gap="40px" fontSize="1.5rem" alignItems="flex-end">
-        <Link style={{textDecoration:'none',color:'#3a1212',borderBottom:'3px solid #ff2625'}} to="/">
+        <Link style={{textDecoration:'none',color:'#3a1212',borderBottom:'3px solid #b52b2b'}} to="/">
           Home
         </Link>
         <a href='#exercises' style={{textDecoration:'none',color:"#3a1212"}}>Exercises</a>

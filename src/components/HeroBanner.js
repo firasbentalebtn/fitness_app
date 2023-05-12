@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography,Button } from "@mui/material";
-import HeroBannerImage from '../assets/images/banner.png';
+import HeroBannerImage from '../assets/images/undraw_fitness_stats_sht6.svg';
 
 const HeroBanner = () => {
   return (
@@ -12,7 +12,7 @@ const HeroBanner = () => {
       position="relative"
       p="25px"
     >
-      <Typography color="#ff2625" fontWeight="600" fontSize="28px">
+      <Typography color="#b52b2b" fontWeight="600" fontSize="28px">
         Fitness Group
       </Typography>
       <Typography
@@ -21,17 +21,15 @@ const HeroBanner = () => {
           fontSize: { lg: "45px", xs: "40px" },
         }} mb="25px" mt="30px"
       >
-        Train,Get Tired <br /> and Repeat
+        Train,Rest <br /> and Repeat
       </Typography>
       <Typography mb={3} fontSize="25px" lineHeight="35px">
-        Find What workout works for you
+        Find the perfect exercises
       </Typography>
       <Stack>
-      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#FF2625', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore Exercises</a>
+      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#b52b2b', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Explore </a>
     </Stack>
-      <Typography fontWeight={600} color="#FF2625" sx={{ opacity: '0.1', display: { lg: 'block', xs: 'none' }, fontSize: '200px' }}>
-      Exercise
-    </Typography>
+   
       <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
     </Box>
   );
